@@ -1,0 +1,186 @@
+
+/* General Styles */
+
+body {
+  margin: 0;
+  font-family: "Lexend Mega", sans-serif;
+  color: powderblue;
+  background-color: plum;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: powderblue;
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  margin: 0 10%;
+}
+
+.navbar .button {
+  background-color: cornsilk;
+  color: plum;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbar .button:hover {
+  background-color: honeydew;
+  color: plum;
+}
+
+.header .navbar ul {
+  display: flex;
+  flex-flow: row;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+/* Main Section */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.taco-mission {
+  display: flex;
+  height: 300px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.taco-mission .content {
+  margin: auto;
+  width: 100%;
+}
+
+.taco-mission .content h4 {
+  padding-bottom: 20px;
+}
+
+.taco-mission .content .button {
+  background-color: cornsilk;
+  color: plum;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.taco-mission .content .button:hover {
+  background-color: honeydew;
+  color: plum;
+}
+
+/* Taco Scavenger Hunt Section */
+
+#tacos {
+  margin: auto;
+  min-height: 500px;
+  padding: 35px;
+}
+
+.taco-curatedregistry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.taco {
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column wrap;
+  flex: 2 1;
+}
+
+.taco img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+}
+
+.taco span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Taco Cities Section */
+
+.taco-cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.taco-city {
+  padding: 10px;
+  margin: 10px;
+  flex-basis: 280px;
+  flex-flow: column wrap;
+  flex 1 2;
+}
+
+.taco-city img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+/* Footer Section */
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact h5:hover {
+  color: cornsilk;
+}
